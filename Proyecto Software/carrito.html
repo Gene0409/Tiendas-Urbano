@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+<a href="index.html">Inicio</a>
+</header>
+
+<h2 style="text-align:center;">Carrito</h2>
+
+<table>
+<tr>
+<th>Producto</th>
+<th>Precio</th>
+</tr>
+<tbody id="cartTable"></tbody>
+</table>
+
+<h3 style="text-align:center;">Total: $<span id="total"></span></h3>
+
+<div style="text-align:center;">
+<button class="btn" onclick="pay()">Pagar</button>
+</div>
+
+<script src="js/app.js"></script>
+<script>loadCart()</script>
+
+</body>
+</html>
